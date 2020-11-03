@@ -1,0 +1,38 @@
+[+] Server: listening on 21356
+[+] Server: 230 Got connection from ('127.0.0.1', 7381)
+b'\x02'
+[*] Server: generating status..
+ServerMode.UNINITIALIZED
+Loaded file name: NULL
+Base file name: NULL
+b'\x01\x12'
+[*] Server: 220 Waiting file transfer connection...
+[+] Server: 225 Data connection open; no transfer in progress.
+[+] Server: 200 Accept new connection from ('127.0.0.1', 7386)
+[+] Server: 200 filename is dblp_orig.xmlab, filesize is 1007925714
+[+] Server: 250 Requested file action okay, completed.
+b'\x01\x12'
+[*] Server: 220 Waiting file transfer connection...
+[+] Server: 225 Data connection open; no transfer in progress.
+[+] Server: 200 Accept new connection from ('127.0.0.1', 7389)
+[+] Server: 200 filename is dblp_orig.xmlaa, filesize is 1007925711
+[+] Server: 250 Requested file action okay, completed.
+b'\x04dblp_orig.xmla'
+[+] Server: 200 Preparing to switch file base name
+b'\x02'
+[*] Server: generating status..
+ServerMode.FILE_LOADED
+Loaded file name: dblp_orig.xmlaa
+Base file name: dblp_orig.xmla
+b'\x01\x11'
+b'\x02'
+[*] Server: generating status..
+ServerMode.WAITING_FOR_QUERY
+Loaded file name: dblp_orig.xmlaa
+Base file name: dblp_orig.xmla
+b'\x03aSimone Pribbenow'
+[+] Server: 200 Author Name = Simone Pribbenow
+[+] Server: 200 Answer = 11
+
+cost 0.010350465774536133 seconds
+b'\xff'

@@ -1,0 +1,157 @@
+[*] Client: initializing
+[*] Client: initial filename needed.
+(dblp_orig.xml)>? [92m[+] Client: file splitted[0m
+[*] Client: will check status for Server #a
+[*] Client: waiting to get result from #a
+ServerMode.UNINITIALIZED
+Loaded file name: NULL
+Base file name: NULL
+[*] Client: will check status for Server #b
+[*] Client: waiting to get result from #b
+ServerMode.UNINITIALIZED
+Loaded file name: NULL
+Base file name: NULL
+[*] Client: will check status for Server #c
+[*] Client: waiting to get result from #c
+ServerMode.UNINITIALIZED
+Loaded file name: NULL
+Base file name: NULL
+[*] Client: sending replicas
+[*] Client: will send dblp_orig.xmlab to Server #a
+[+] Server: 101 Switching Protocols
+[+] Server: 200 Entering file transfer mode. Will listen on 21357.
+
+[*] Client: trying to establish file socket connection..
+[*] Client: will send dblp_orig.xmlac to Server #b
+[+] Server: 200 Server ready to receive.
+[+] Server: 101 Switching Protocols
+[+] Server: 200 Entering file transfer mode. Will listen on 21359.
+
+[*] Client: trying to establish file socket connection..
+[+] Server: 200 Server ready to receive.
+[+] Server: file exists!
+[96m[+] Client: remote file exists![0m
+[+] Server: file exists!
+[96m[+] Client: remote file exists![0m
+[*] Client: will send dblp_orig.xmlaa to Server #c
+[+] Server: 101 Switching Protocols
+[+] Server: 200 Entering file transfer mode. Will listen on 21357.
+
+[*] Client: trying to establish file socket connection..
+[+] Server: 200 Server ready to receive.
+[+] Server: file exists!
+[96m[+] Client: remote file exists![0m
+True
+True
+True
+[*] Client: sending files
+[*] Client: will send dblp_orig.xmlaa to Server #a
+[+] Server: 101 Switching Protocols
+[+] Server: 200 Entering file transfer mode. Will listen on 21357.
+
+[*] Client: trying to establish file socket connection..
+[*] Client: will send dblp_orig.xmlab to Server #b
+[+] Server: 200 Server ready to receive.
+[+] Server: 101 Switching Protocols
+[+] Server: 200 Entering file transfer mode. Will listen on 21359.
+
+[*] Client: trying to establish file socket connection..
+[+] Server: file exists!
+[96m[+] Client: remote file exists![0m
+[*] Client: will send dblp_orig.xmlac to Server #c
+[+] Server: 200 Server ready to receive.
+[+] Server: file exists!
+[96m[+] Client: remote file exists![0m
+[+] Server: 101 Switching Protocols
+[+] Server: 200 Entering file transfer mode. Will listen on 21357.
+
+[*] Client: trying to establish file socket connection..
+[+] Server: 200 Server ready to receive.
+[+] Server: file exists!
+[96m[+] Client: remote file exists![0m
+True
+True
+True
+[92m[+] Client: file sent successfully[0m
+[+] Server: 200 Base file name switched to dblp_orig.xmla
+[*] Client: will check status for Server #a
+[*] Client: waiting to get result from #a
+ServerMode.FILE_LOADED
+Loaded file name: dblp_orig.xmlaa
+Base file name: dblp_orig.xmla
+[+] Server: 200 Base file name switched to dblp_orig.xmla
+[*] Client: will check status for Server #b
+[*] Client: waiting to get result from #b
+ServerMode.FILE_LOADED
+Loaded file name: dblp_orig.xmlab
+Base file name: dblp_orig.xmla
+[+] Server: 200 Base file name switched to dblp_orig.xmla
+[*] Client: will check status for Server #c
+[*] Client: waiting to get result from #c
+ServerMode.FILE_LOADED
+Loaded file name: dblp_orig.xmlac
+Base file name: dblp_orig.xmla
+[+] Server: 101 Switching Protocols
+[+] Server: 200 Entering query mode
+
+[+] Server: 101 Switching Protocols
+[+] Server: 200 Entering query mode
+
+[+] Server: 101 Switching Protocols
+[+] Server: 200 Entering query mode
+
+[*] Client: will check status for Server #a
+[*] Client: waiting to get result from #a
+ServerMode.WAITING_FOR_QUERY
+Loaded file name: dblp_orig.xmlaa
+Base file name: dblp_orig.xmla
+[*] Client: will check status for Server #b
+[*] Client: waiting to get result from #b
+ServerMode.WAITING_FOR_QUERY
+Loaded file name: dblp_orig.xmlab
+Base file name: dblp_orig.xmla
+[*] Client: will check status for Server #c
+[*] Client: waiting to get result from #c
+ServerMode.WAITING_FOR_QUERY
+Loaded file name: dblp_orig.xmlac
+Base file name: dblp_orig.xmla
+
+
+Welcome to
+   _____                                            
+  /  _  \   ____ __________ ________   ____ ______  
+ /  /_\  \ /    \\___   /  |  \____ \ /  _ \____  \ 
+/    |    \   |  \/    /|  |  /  |_> >  <_> )  |_> >
+\____|__  /___|  /_____ \____/|   __/ \____/|   __/ 
+        \/     \/      \/     |__|          |__|    
+mock disturbed system demo! 
+
+1. query
+2. get server info
+3. exit
+operation?
+> author name?
+> a: answer is 11
+b: answer is 4
+c: answer is 5
+[1m[92mSimone Pribbenow: answer is 20[0m
+cost 0.9082491397857666 seconds
+
+
+Welcome to
+   _____                                            
+  /  _  \   ____ __________ ________   ____ ______  
+ /  /_\  \ /    \\___   /  |  \____ \ /  _ \____  \ 
+/    |    \   |  \/    /|  |  /  |_> >  <_> )  |_> >
+\____|__  /___|  /_____ \____/|   __/ \____/|   __/ 
+        \/     \/      \/     |__|          |__|    
+mock disturbed system demo! 
+
+1. query
+2. get server info
+3. exit
+operation?
+> [+] Server: 200 Bye.
+[+] Server: 200 Bye.
+[+] Server: 200 Bye.
+[96m[+] Client: Bye.[0m
